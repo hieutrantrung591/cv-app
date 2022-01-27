@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvNameSkill"
+        android:layout_width="84dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="New Skill"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toEndOf="@+id/tvNameSkill"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toStartOf="@+id/tv1"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toStartOf="@+id/tv"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toStartOf="@+id/tv2"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toStartOf="@+id/tv3"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="10dp"
+
+        android:layout_height="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toStartOf="@+id/tv4"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_700"
+        app:layout_constraintStart_toStartOf="@+id/tv5"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_700"
+        app:layout_constraintStart_toStartOf="@+id/tv6"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/purple_700"
+        app:layout_constraintStart_toStartOf="@+id/tv7"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_700"
+        app:layout_constraintStart_toStartOf="@+id/tv8"
+        app:layout_constraintTop_toTopOf="@+id/tvNameSkill" />
+</androidx.constraintlayout.widget.ConstraintLayout>

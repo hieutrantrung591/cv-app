@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="618dp"
+        android:text="CÔNG TY :"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_name_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:hint="New company"
+        android:layout_marginTop="48dp"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+</LinearLayout>

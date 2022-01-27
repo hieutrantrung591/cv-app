@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:background="@drawable/dashboard_bg"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:id="@+id/textHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/userName"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textGreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="60dp"
+            android:text="Hãy cùng tạo CV cho bản thân đi nào!"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/usericon"
+            android:src="@drawable/ic_user"
+            app:layout_constraintBottom_toBottomOf="@id/layoutHeader"
+            app:layout_constraintRight_toRightOf="@id/layoutHeader"
+            app:layout_constraintTop_toTopOf="@id/layoutHeader"
+            app:layout_constraintVertical_bias="0.573" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <GridLayout
+        android:id="@+id/layoutButton2"
+        android:layout_width="357dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="48dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonHuy"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="40dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/huy5"
+            android:text="Hủy"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonLuu"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="40dp"
+            android:backgroundTint="#009637"
+            android:drawableStart="@drawable/luu5"
+            android:text="Lưu"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonThongTin"
+        android:layout_width="357dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="27dp"
+        android:text="Thông Tin Cá Nhân"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutHeader" />
+
+    <Button
+        android:id="@+id/buttonSoThich"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="27dp"
+        android:text="Sở Thích"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        android:drawableTop="@drawable/sothich99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonThongTin" />
+
+    <Button
+        android:id="@+id/buttonHocVan"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="27dp"
+        android:text="Học Vấn"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        app:strokeColor="@color/purple_500"
+        android:drawableTop="@drawable/hocvan2"
+        app:strokeWidth="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMucTieu" />
+
+    <Button
+        android:id="@+id/buttonKyNang"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="27dp"
+        android:text="Kỹ Năng"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        android:drawableTop="@drawable/kynang99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSoThich" />
+
+    <Button
+        android:id="@+id/buttonMucTieu"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="27dp"
+        android:text="Mục Tiêu"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        android:drawableTop="@drawable/muctieu99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonThongTin" />
+
+    <Button
+        android:id="@+id/buttonKinhNghiem"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="27dp"
+        android:text="Kinh Nghiệm"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        android:drawableTop="@drawable/kinhnghiem99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHocVan" />
+
+    <Button
+        android:id="@+id/buttonDuAn"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="27dp"
+        android:drawableTop="@drawable/duan99"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        android:text="Dự Án"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKyNang" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

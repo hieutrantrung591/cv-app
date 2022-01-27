@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tạo CV</string>
+    <string name="userInput">Thông tin của bạn</string>
+    <string name="help">Hướng dẫn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hobby">hobby</string>
+    <string name="hobbyTitle">Sở thích</string>
+    <string name="hobbyicon">hobbyicon</string>
+    <string name="input">Sở thích của bạn</string>
+    <string name="userInput2">Học vấn của bạn</string>
+    <string name="userInput3">Mục tiêu của bạn</string>
+    <string name="hobbyInput">Nhập sở thích của bạn</string>
+    <string name="hobbySave">Lưu</string>
+    <string name="hobbyCancel">Hủy</string>
+    <string name="titleGoal">Mục tiêu</string>
+    <string name="inputGoal">Nhập mục tiêu của bạn</string>
+    <string name="goalSave">Lưu</string>
+    <string name="goalCancel">Hủy</string>
+    <string name="usericon">userIcon</string>
+    <string name="userName">Tên của bạn</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Nhập Thông Tin</string>
+    <string name="tab_text_2">Hướng Dẫn</string>
+</resources>
